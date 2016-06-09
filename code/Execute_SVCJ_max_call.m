@@ -179,5 +179,5 @@ axis tight
 view(-45, 30)
 title('Numerical solution of SVCJ')
 xlabel('S');
-ylabel('T');
+ylabel('vol');
 zlabel('call price')
