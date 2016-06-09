@@ -6,23 +6,18 @@ The Black–Scholes model [1] concerns with the problems of option pricing and h
 In this repo, I have implemented numerical solution of stochastic volatility with contemporaneous jumps(SVCJ) model[5-6] by using finite difference method. Especially, I would like to show how boundary condition affects the solution. First, I applied linear boundary condition. Next, hybrid boundary condition is used. 
 
 ###About SVCJ###
-- `PDF` file is attached in `code` folder.
+- `PDF` file which is described about SVCJ is attached in `code` folder.
 
 ### Implementation ###
 - `MATLAB` codes and figures are uploaded.
+- Operator spliting method(OSM) is used. 
 
 
 ###Reference###
 
-
-
 \[1\] Black, Fischer, and Myron Scholes. "The pricing of options and corporate liabilities." The journal of political economy (1973): 637-654.
 
-
-
 \[2\] Heston, Steven L. "A closed-form solution for options with stochastic volatility with applications to bond and currency options." Review of financial studies 6.2 (1993): 327-343.
-
-
 
 \[3\] Kremer, Joseph W., and Rodney L. Roenfeldt. "Warrant pricing: jump-diffusion vs. Black-Scholes." Journal of Financial and Quantitative Analysis 28.02 (1993): 255-272.
 
