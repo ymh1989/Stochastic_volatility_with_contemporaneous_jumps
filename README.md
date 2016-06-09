@@ -12,6 +12,9 @@ In this repo, I have implemented numerical solution of stochastic volatility wit
 - `MATLAB` codes and figures are uploaded.
 - Operator spliting method(OSM) is used. 
 
+### Future works ###
+- In this repo, linear boundary condtion and proposeed method are used as a boundary conditions at far-field area. However, SVCJ does not have analytic solution as far as I know. Although the solution used finer mesh could be reference solution, it is not fair to compare. 
+
 
 ###Reference###
 
