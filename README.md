@@ -1,0 +1,2 @@
+# Stochastic_volatility_with_contemporaneous_jumps
+Stochastic volatility with contemporaneous jumps by using finite difference method
