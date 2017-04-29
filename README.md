@@ -1,22 +1,22 @@
-## Stochastic volatility with contemporaneous jumps ##
+## Stochastic volatility with contemporaneous jumps
 
-### Introduction ###
+### Introduction
 The Black–Scholes model [1] concerns with the problems of option pricing and has achieved great success, especially in stock option. However, many empirical studies indicate the drawbacks of the Black–Scholes model. First of all, the most apparent violated assumption is that the volatility of underlying assets is constant. In order to complement the property of changing volatility, several variations of stochastic volatility(SV) models, for example the Heston model [2], are regarded as more appropriate than classical Black–Scholes model. Next, classical Black–Scholes model can not reflect the property of discontinuous jumps in the asset price. Hence, the jump model generally provide more efficient and accurate valuation of derivatives. [3-4] Nevertheless, both SV models and jump models are not totally describe empirical cases. For example, SV models have trouble describing the crashes in 1987 or 2008. Jump models, on the other hand, generally can explain the crashes using appropriate parameters which make a negative jump. However, jump models cannot explain the fluctuation of implied volatility after the crashes. For these reasons, models which include the properties of not only SV, but also jump models are proposed.
 
 In this repo, I have implemented numerical solution of stochastic volatility with contemporaneous jumps(SVCJ) model[5-6] by using finite difference method. Especially, I would like to show how boundary condition affects the solution. First, I applied linear boundary condition. Next, hybrid boundary condition is used. 
 
-###About SVCJ###
+### About SVCJ
 - `PDF` file which is described about SVCJ is attached in `code` folder.
 
-### Implementation ###
+### Implementation
 - `MATLAB` codes and figures are uploaded.
 - Operator spliting method(OSM) is used. 
 
-### Future works ###
+### Future works
 - In this repo, linear boundary condtion and proposeed method are used as a boundary conditions at far-field area. However, SVCJ does not have analytic solution as far as I know. Although the solution used finer mesh could be reference solution, it is not fair to compare. 
 
 
-###Reference###
+### Reference
 
 \[1\] Black, Fischer, and Myron Scholes. "The pricing of options and corporate liabilities." The journal of political economy (1973): 637-654.
 
